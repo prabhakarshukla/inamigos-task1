@@ -610,3 +610,27 @@ footer{
     }
 
 }
+
+
+#topBtn{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#2E8B57;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+    display:none;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+    transition:.3s;
+    z-index:999;
+}
+
+#topBtn:hover{
+    background:#1f6d42;
+    transform:translateY(-5px);
+}
