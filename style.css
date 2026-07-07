@@ -238,3 +238,50 @@ body{
     color:#555;
     line-height:1.7;
 }
+
+.impact{
+    padding:100px 8%;
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+}
+
+.impact h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.impact-subtitle{
+    max-width:700px;
+    margin:0 auto 60px;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.impact-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.impact-card{
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.2);
+    padding:35px 20px;
+    border-radius:18px;
+    transition:.35s;
+}
+
+.impact-card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,.2);
+}
+
+.impact-card h3{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.impact-card p{
+    font-size:18px;
+}
